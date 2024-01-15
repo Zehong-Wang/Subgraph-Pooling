@@ -1,0 +1,75 @@
+gcn:
+  k_hop:
+    hops: 0
+    pretrain_lr: 0.001
+    pretrain_epochs: 500
+    num_layers: 2
+    DA: True
+  rw:
+    repeat: 50
+    hops: 3
+    pooling: gcn
+    pretrain_lr: 0.001
+    pretrain_epochs: 500
+    num_layers: 2
+    DA: True
+gat:
+  k_hop:
+    hops: 0
+    pretrain_lr: 0.001
+    pretrain_epochs: 500
+    num_layers: 2
+    DA: True
+  rw:
+    repeat: 50
+    hops: 3
+    pooling: gcn
+    pretrain_lr: 0.001
+    pretrain_epochs: 500
+    num_layers: 2
+    DA: True
+sage:
+  k_hop:
+    hops: 0
+    pretrain_lr: 0.001
+    pretrain_epochs: 500
+    num_layers: 2
+    DA: True
+  rw:
+    repeat: 50
+    hops: 3
+    pooling: gcn
+    pretrain_lr: 0.001
+    pretrain_epochs: 500
+    num_layers: 2
+    DA: True
+sgc:
+  k_hop:
+    hops: 0
+    pretrain_lr: 0.001
+    pretrain_epochs: 500
+    num_layers: 2
+    DA: True
+  rw:
+    repeat: 50
+    hops: 3
+    pooling: gcn
+    pretrain_lr: 0.001
+    pretrain_epochs: 500
+    num_layers: 2
+    DA: True
+appnp:
+  k_hop:
+    hops: 0
+    pretrain_lr: 0.001
+    pretrain_epochs: 500
+    num_layers: 2
+    DA: True
+  rw:
+    repeat: 50
+    hops: 3
+    pooling: gcn
+    pretrain_lr: 0.001
+    pretrain_epochs: 500
+    num_layers: 2
+    DA: True

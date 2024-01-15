@@ -1,0 +1,51 @@
+gcn:
+  k_hop:
+    hops: 1
+    pretrain_lr: 0.001
+    target_lr: 0.001
+    pretrain_epochs: 100
+    num_layers: 1
+    target_epochs: 3000
+    pooling: gcn
+  rw:
+    hops: 3
+    pretrain_lr: 0.001
+    target_lr: 0.001
+    pretrain_epochs: 100
+    num_layers: 1
+    target_epochs: 3000
+    pooling: gcn
+gat:
+  k_hop:
+    hops: 1
+    pretrain_lr: 0.001
+    target_lr: 0.001
+    pretrain_epochs: 100
+    num_layers: 1
+    target_epochs: 3000
+    pooling: gcn
+  rw:
+    hops: 3
+    pretrain_lr: 0.001
+    target_lr: 0.001
+    pretrain_epochs: 100
+    num_layers: 1
+    target_epochs: 3000
+    pooling: gcn
+sage:
+  k_hop:
+    hops: 1
+    pretrain_lr: 0.001
+    target_lr: 0.001
+    pretrain_epochs: 100
+    num_layers: 1
+    target_epochs: 3000
+    pooling: gcn
+  rw:
+    hops: 3
+    pretrain_lr: 0.001
+    target_lr: 0.001
+    pretrain_epochs: 100
+    num_layers: 1
+    target_epochs: 3000
+    pooling: gcn

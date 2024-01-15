@@ -1,0 +1,14 @@
+gcn:
+  rw:
+    pooling: mean
+    repeat: 10
+    hops: 10
+    pretrain_lr: 0.01
+    pretrain_epochs: 200
+    num_layers: 5
+  k_hop:
+    pooling: mean
+    hops: 1
+    pretrain_lr: 0.01
+    pretrain_epochs: 200
+    num_layers: 5
