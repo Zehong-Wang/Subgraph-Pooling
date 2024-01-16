@@ -59,7 +59,7 @@ To ensure reproducibility of the paper, we provide the detailed hyper-parameters
 ```
 bash script/run.sh DATASET BACKBONE SAMPLING
 ```
-where the first term indicates the `dataset`, the second term indicates the used `backbone`, and the last one is the subgraph `sampling` method. Please refer to `script/readme.md` for more details. 
+where the first term indicates the `dataset`, the second term indicates the used `backbone`, and the last one is the subgraph `sampling` method. Please refer to [script/readme.md](script/readme.md) for more details. 
 
 Here are some examples. 
 
