@@ -174,8 +174,6 @@ def main(params):
     print()
 
 
-
-
 if __name__ == "__main__":
     params = get_args()
     print(params)
