@@ -1,5 +1,15 @@
 # Subgraph Pooling: Tackling Negative Transfer on Graphs
 
+This repo presents implementations of the **Subgraph Pooling**: 
+
+> **Paper**: Subgraph Pooling: Tackling Negative Transfer on Graphs
+
+> **Link**: TODO
+
+## Introduction
+
+In this paper, we systematically analyze the negative transfer issue in graph neural networks and provide a new insight to handle the issue. In particular, we find: *for semantically similar graphs, although structural differences lead to significant distribution shift in node embeddings, their impact on subgraph embeddings is marginal.* This insight inspires us to propose **Subgraph Pooling** and **Subgraph Pooling++** that transfer subgraph-level knowledge across graphs. 
+
 ## Getting Started
 
 ### Setup Environment
@@ -10,6 +20,7 @@ conda create -y -n SP python=3.8
 conda activate SP
 
 pip install -r requirements.txt
+pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cu121.html
 ```
 
 Here a conda environment named `SP` and install relevant requirements from `requirements.txt`. Be sure to activate the environment via `conda activate SP` before running experiments as described. 
@@ -75,3 +86,11 @@ To extend Subgraph Pooling to your own model, one simple method is to implement 
 ## Contact Us
 
 Please open an issue or contact `zwang43@nd.edu` if you have questions. 
+
+## Citation
+
+Please cite the following paper corresponding to the repository: 
+
+```
+TODO
+```
