@@ -1,10 +1,10 @@
-# Subgraph Pooling: Tackling Negative Transfer on Graphs
+# Tackling Negative Transfer on Graphs
 
 This repo presents implementations of the **Subgraph Pooling**: 
 
-> **Paper**: Subgraph Pooling: Tackling Negative Transfer on Graphs
+> **Paper**: Tackling Negative Transfer on Graphs
 
-> **Link**: TODO
+> **Link**: https://arxiv.org/abs/2402.08907
 
 ## Introduction
 
@@ -92,5 +92,10 @@ Please open an issue or contact `zwang43@nd.edu` if you have questions.
 Please cite the following paper corresponding to the repository: 
 
 ```
-TODO
+@article{wang2024tackling,
+  title={Tackling Negative Transfer on Graphs},
+  author={Wang, Zehong and Zhang, Zheyuan and Zhang, Chuxu and Ye, Yanfang},
+  journal={arXiv preprint arXiv:2402.08907},
+  year={2024}
+}
 ```
